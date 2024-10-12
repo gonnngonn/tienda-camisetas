@@ -1,0 +1,124 @@
+/* Estilos de los productos */
+.container-productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin: 35px auto;
+  max-width: 1200px;
+}
+
+.container-productos p {
+  color: black;
+}
+
+.container-producto {
+  background-color: #f2f2f2;
+  padding: 15px;
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.container-producto:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container-producto img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.container-producto h3 {
+  font-size: 1.1em;
+  height: 2.4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.container-producto p {
+  margin: 10px;
+  font-size: 0.9em;
+}
+
+.precio-producto {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.container-producto button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+  font-size: 0.9em;
+  width: 100%;
+}
+
+.container-producto button:hover {
+  background-color: darkgreen;
+}
+
+.hero {
+  background-color: rgb(21, 82, 34);
+  text-align: center;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 40px;
+}
+
+/* Media queries para hacer el diseño responsive */
+@media (max-width: 1200px) {
+  .container-productos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .container-productos {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .container-producto {
+    max-width: 100%;
+  }
+
+  .container-producto img {
+    height: 200px;
+  }
+}

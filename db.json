@@ -1,0 +1,107 @@
+{
+  "usuarios": [
+    {
+      "id": "13a6",
+      "username": "vegetta",
+      "password": "9000"
+    },
+    {
+      "id": "046b",
+      "username": "admin12",
+      "password": "soyadmin"
+    },
+    {
+      "id": "c95e",
+      "username": "protip",
+      "password": "6778"
+    },
+    {
+      "id": "85e9",
+      "username": "krillin",
+      "password": "4000"
+    },
+    {
+      "id": "7037",
+      "username": "messi",
+      "password": "2828"
+    },
+    {
+      "id": "1722389275438",
+      "username": "eman",
+      "password": "91228",
+      "isAdmin": false
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Camiseta Bayer Leverkusen",
+      "description": "Equipacion titular 23/24",
+      "price": 19.99,
+      "image": "https://cf.camisetasfutbol.com.cn/upload/ttmall/img/20240326/5cea5b0b31cf587c6363ca76a83417a0.png=z-780,780_f-webp"
+    },
+    {
+      "id": "2",
+      "name": "Camiseta Inter Miami",
+      "description": "Equipacion suplente 23/24",
+      "price": 34.99,
+      "image": "https://acdn.mitiendanube.com/stores/001/312/744/products/grdytfygtfuygiuhi1-28170a7f8ac2a3af8416885000180346-240-0.png"
+    },
+    {
+      "id": "3",
+      "name": "Camiseta Argentina",
+      "description": "Equipacion titular 23/24",
+      "price": 39.99,
+      "image": "https://acdn.mitiendanube.com/stores/001/312/744/products/egrdtfgukyryituuioi-12bf7ee5b76ed73fdf17108810232728-640-0.png"
+    },
+    {
+      "id": "4",
+      "name": "Camiseta San Lorenzo",
+      "description": "Equipacion titular 23/24",
+      "price": 29.99,
+      "image": "https://dcdn.mitiendanube.com/stores/003/391/782/products/d430a4ff-57d9-49a0-a991-6c107a670fe21-51e165d9745fc29cce16898659589369-640-0.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "Camiseta River Plate",
+      "description": "Equipacion titular 23/24",
+      "price": 34.99,
+      "image": "https://tiendariver.vteximg.com.br/arquivos/ids/170832-500-500/HT3688_FR.png?v=638412007867400000"
+    },
+    {
+      "id": "6",
+      "name": "Camiseta Manchester City",
+      "description": "Equipacion titular 24/24",
+      "price": 26.99,
+      "image": "https://tucamisetasport.com/wp-content/uploads/2023/06/preview-6-removebg-preview.png"
+    },
+    {
+      "id": "be8f",
+      "name": "Camiseta Real Madrid",
+      "description": "Titular 23/24",
+      "price": 49.99,
+      "image": "https://www.squaddra.com/cdn/shop/files/Captura_de_pantalla_2023-06-27_184638-removebg-preview_c0ce3422-eee9-4fff-846f-dacd78fd4f16_300x300.png?v=1687886871"
+    },
+    {
+      "id": "33dd",
+      "name": "Camiseta Roma",
+      "description": "Titular 23/24",
+      "price": 19.99,
+      "image": "https://www.lars7.com/image/cache/20231115SX/camiseta-as-roma-1-equipacion-2023-2024-01-001-1000x1000.png"
+    },
+    {
+      "id": "a2bf",
+      "name": "Camiseta Colombia",
+      "description": "Suplente 2024",
+      "price": 18.99,
+      "image": "https://www.thunderinternacional.com/cdn/shop/files/FuNfVfvhbBulPda.jpg?v=1712149727"
+    },
+    {
+      "id": "365d",
+      "name": "Camiseta Boca",
+      "description": "Titular 2024",
+      "price": 18.99,
+      "image": "https://dcdn.mitiendanube.com/stores/003/940/380/products/diseno-sin-titulo-27-fb366f6e0c595beb1217004925109371-1024-1024.png"
+    }
+  ]
+}

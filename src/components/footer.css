@@ -1,0 +1,14 @@
+.footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 250px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.9rem;
+  }
+}
